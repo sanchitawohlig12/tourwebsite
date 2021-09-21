@@ -15,11 +15,13 @@
     </div>
     <br />
     <div>
-      <span>© 2021 Nusa Penida Tourism Board All Rights Reserved</span>
+      <span class="A"
+        >© 2021 Nusa Penida Tourism Board All Rights Reserved</span
+      >
       <br />
-      <span>Klungkung Regency</span>
+      <span1 class="A">Klungkung Regency</span1>
       <br />
-      <span>Nusa Penida, Bali - Indonesia</span>
+      <span1 class="A">Nusa Penida, Bali - Indonesia</span1>
       <br />
 
       <span style="font-size: 60%">Powered by JanuMedia with NuxtJS</span>
@@ -45,9 +47,13 @@ a {
 }
 span {
   padding: 1%;
-  color: gray;
+
   font-size: 80%;
   color: white;
+}
+.A {
+  color: white;
+  font-size: 80%;
 }
 .icon {
   padding: 1%;
